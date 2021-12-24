@@ -1,6 +1,6 @@
 #include <stdio.h>  
    
-int main() {  
+big() {  
     int a, b;  
     printf("Please Enter Two different values\n");  
     scanf("%d %d", &a, &b);  
@@ -18,5 +18,5 @@ int main() {
 	printf("Both are Equal\n");
     }
    
-    return 0;  
+   // return 0;  
 }

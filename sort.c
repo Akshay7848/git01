@@ -34,5 +34,5 @@
             printf("%d\n", number[i]);
 
    }
-~
+
 

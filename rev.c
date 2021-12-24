@@ -1,6 +1,6 @@
 #include <stdio.h>  
 #include <string.h>  
-int main()  
+rev()  
 {  
     char str[40]; // declare the size of character string  
     printf (" \n Enter a string to be reversed: ");  
@@ -8,5 +8,5 @@ int main()
       
     // use strrev() function to reverse a string  
     printf (" \n After the reverse of a string: %s ", strrev(str));  
-    return 0;  
+   // return 0;  
 }  

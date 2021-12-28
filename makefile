@@ -1,5 +1,5 @@
-ABC.exe:main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o
-	gcc -o ABC.exe main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o
+ABC.exe:main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
+	gcc -o ABC.exe main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
 main.o:main.c
 	gcc -c main.c
 big.o:big.c
@@ -18,6 +18,8 @@ fib.o:fib.c
 	gcc -c fib.c
 sort.o:sort.c
 	gcc -c sort.c
+swap.o:swap.c
+	gcc -c swap.c
 clean:
 	rm -rf *.o
 

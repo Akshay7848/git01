@@ -8,5 +8,6 @@ main(){
 	sum3();
 	fib();
 	sort();
+	swap();
 }
 

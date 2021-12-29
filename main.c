@@ -1,6 +1,6 @@
 #include<stdio.h>
 main(){
-        big2();
+        big();
         fact();
         rev();
 	palin();

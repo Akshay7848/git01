@@ -1,9 +1,9 @@
-ABC.exe:main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
-	gcc -o ABC.exe main.o big.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
+ABC.exe:main.o big2.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
+	gcc -o ABC.exe main.o big2.o fact.o rev.o palin.o big3.o sum3.o fib.o sort.o swap.o
 main.o:main.c
 	gcc -c main.c
-big.o:big.c
-	gcc -c big.c
+big2.o:big2.c
+	gcc -c big2.c
 fact.o:fact.c
 	gcc -c fact.c
 rev.o:rev.c
